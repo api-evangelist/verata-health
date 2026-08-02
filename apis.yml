@@ -1,8 +1,26 @@
 aid: verata-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verata-health.png
 name: Verata Health
-description: 'Verata Health is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Verata Health was a Minneapolis-based healthcare AI company that automated
+  prior authorization for providers and payers — preparing prior authorizations, identifying
+  payer rules, retrieving clinical documentation, and returning payer decisions, including
+  a SMART on FHIR app (Verata Pathway). It was backed by Bessemer Venture Partners,
+  LRVHealth and BlueCross BlueShield Venture Partners, and was acquired by Olive AI in
+  December 2020 (reported ~$120M). Olive AI ceased operations in October 2023. Verata
+  Health operates no live public API surface today; the veratahealth.com domain now
+  resolves to a parked lander. This profile is retained as an honest historical
+  record — there is no developer portal, OpenAPI, or SDK to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/verata-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,28 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'Acquired by Olive AI Dec 2020 (~$120M); Olive AI ceased operations Oct 2023. No live API surface; veratahealth.com is a parked domain lander (soft-404s on all well-known paths).'
+x-acquired-by: olive-ai
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Prior Authorization
+- Artificial Intelligence
+- Revenue Cycle
+- SMART on FHIR
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
