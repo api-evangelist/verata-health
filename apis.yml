@@ -31,7 +31,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: 'Acquired by Olive AI Dec 2020 (~$120M); Olive AI ceased operations Oct 2023. No live API surface; veratahealth.com is a parked domain lander (soft-404s on all well-known paths).'
 x-acquired-by: olive-ai
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
